@@ -9,25 +9,26 @@
 
 <body>
   <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-
-  <h1 id="title">e-commerce Survey Form</h1>
-  <p id="description">Tell us more the product</p>
+  <div id="central-div">
+  <h1>Hello World</h1>
+  <h3 id="title">e-commerce Survey Form</h3>
+  <p id="description">Tell us more about the product</p>
   <form id='survey-form' method="post" action="">
-    <div>
+    <div style="padding: 10px 10px;">
       <label id='name-label'>Name</label>
       <input type="text" id="name" placeholder='Enter your FirstName'>
 
     </div>
-    <div>
+    <div style="padding: 10px 10px;">
       <label id='email-label'>Email</label>
       <input name="email" type="email" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$"
         placeholder="Enter Email" id="email" required="">
     </div>
-    <div>
+    <div style="padding: 10px 10px;">
       <label id='number-label'>Number</label>
       <input type="number" id="number" pattern="[0-9]" required min='1' max='9' placeholder="Enter Your Phone Number">
     </div>
-    <div>
+    <div style="padding: 10px 10px;">
       <select id="dropdown">
         <option name='drop' value="A">Satisfied</option>
         <option name='drop' value="B">Not Satisfied</option>
@@ -36,7 +37,7 @@
       <input type="radio" name="gender" value="M">Male
       <input type="radio" name="gender" value="F">Female
     </div>
-    <div>
+    <div style="padding: 10px 10px;">
       <input type="checkbox" value="A">Fruits
       <input type="checkbox" value="B">Veggies
       <input type="checkbox" value="C">Grains
@@ -44,11 +45,11 @@
     <div>
       <textarea name="textarea" id="text-area" cols="30" rows="10" placeholder="Any other comment(s)..."></textarea>
     </div>
-    <div>
+    <div style="padding: 10px 10px;">
       <button type="submit" id='submit'>Submit</button>
     </div>
   </form>
-
+</div>
   <script src="js/index.js"></script>
 </body>
 
