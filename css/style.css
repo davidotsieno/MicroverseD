@@ -1,0 +1,17 @@
+
+
+body{
+    width: 100%;
+    background-color: bisque;
+    display: block;
+    margin: auto auto;
+    padding: auto auto;
+}
+
+#central-div{
+    background-color: aqua;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 10px;
+}
